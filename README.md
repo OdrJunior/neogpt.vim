@@ -1,4 +1,6 @@
-# ChatGPT.nvim [WIP]
+# ChatGPT.nvim custom
+
+original project as https://github.com/jackMort/ChatGPT.nvim
 
 ![GitHub Workflow Status](http://img.shields.io/github/actions/workflow/status/jackMort/ChatGPT.nvim/default.yml?branch=main&style=for-the-badge)
 ![Lua](https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua)
@@ -15,7 +17,7 @@ With `ChatGPT`, you can ask questions and get answers from GPT-3 in real-time.
 ```lua
 -- Packer
 use({
-  "jackMort/ChatGPT.nvim",
+  "OdrJunior/neogpt.vim",
     config = function()
       require("chatgpt").setup({
         -- optional configuration
